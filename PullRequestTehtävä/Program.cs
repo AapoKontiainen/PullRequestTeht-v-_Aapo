@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Title = "PullRequestDemo";
+            Console.WriteLine("Tervehdys");
         }
     }
 }
